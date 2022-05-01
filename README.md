@@ -10,4 +10,8 @@ Za traženje 'PHP' poslova unesite:
 
      python3 beautiful_soup.py php
 
-
+Potrebni paketi:
+    
+    python3 -m pip install beautifulsoup4
+    python3 -m pip install requests
+    
