@@ -13,18 +13,13 @@ except IndexError:
     #print(message)
     sys.exit(message)
 
-#URL = "https://realpython.github.io/fake-jobs/"
 URL = "https://www.moj-posao.net/Pretraga-Poslova/?searchWord=php&keyword=" + keyword + "&job_title=&job_title_id=&area=&category="
 page = requests.get(URL)
 
 soup = BeautifulSoup(page.content, "html.parser")
 
-#results = soup.find(id="ResultsContainer")
 results = soup.find(class_="searchlist")
 
-#print(results.prettify())
-
-#job_elements = results.find_all("div", class_="card-content")
 job_elements = results.find_all("div", class_="job")
 
 '''
@@ -49,11 +44,6 @@ for job_element in job_elements:
 
     print(f"Pošalji prijavu ovdje: {link_url}\n")
 
-    #print(job_to_be_stored)
-
-
-
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     pass
 

@@ -1,15 +1,13 @@
+![eios.hr](https://eios.hr/wp-content/uploads/2021/05/eios-logo-75.png)
 
+# Seminar: Skriptni jezici i web programiranje
 
+***Izradio: Toni Ilić***
 
+## Naredbena skripta za traženje poslova na moj-posao.net
 
-<!--
-sqlite
+Za traženje 'PHP' poslova unesite:
 
-https://realpython.com/python-sqlite-sqlalchemy/
+     python3 beautiful_soup.py php
 
-
-# finished: https://realpython.com/beautiful-soup-web-scraper-python/
-# check out: https://realpython.com/web-scraping-with-scrapy-and-mongodb/
-)
--->
 
